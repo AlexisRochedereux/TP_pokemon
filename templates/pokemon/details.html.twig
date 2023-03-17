@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    {{ pokemon.nom}} | {{ parent() }}
+
+{% endblock %}
+
+{% block body %}
+    <div>
+        <div class="info">
+            <img src="{{ asset('img/pokemon/'~pokemon.image) }}" alt="{{ pokemon.nom }}">
+            <div class="stats">
+                <h2 >Attaque : {{ pokemon.attaque }}</h2>
+                <h2 >Défense : {{ pokemon.defense }}</h2>
+            </div>
+        </div>
+        <h2>{{ pokemon.nom }}</h2>
+        <h2>{{ pokemon.description }}</h2>
+    </div>
+
+{% endblock %}

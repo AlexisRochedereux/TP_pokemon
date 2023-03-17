@@ -1,0 +1,44 @@
+/* style pour le logo */
+#logo_pokemon {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#logo_pokemon img {
+    width: 80vw;
+    height: auto;
+}
+
+/* style pour le titre */
+#lien_home {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#lien_home h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000;
+}
+
+.info {
+    display: flex;
+}
+.stats {
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon {
+    border: solid gray 1px;
+    width: 30vw;
+}
+
+img {
+    width: 30vw;
+}
+
+.nomPokemon {
+    text-align: center;
+    margin-top: 5px;
+}
